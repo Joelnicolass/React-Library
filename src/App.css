@@ -1,0 +1,82 @@
+.title {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 40px;
+  text-align: center;
+  background-color: white;
+  color: grey;
+}
+
+/* NEW FORM */
+.container-new {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-new-form {
+  max-width: 800px;
+  width: 100%;
+}
+
+.input-form-group {
+  margin-bottom: 20px;
+}
+
+.btn-form-actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.btn-form-actions .btn {
+  margin-right: 10px;
+}
+
+/* LIST */
+.btn-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container-list__list {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.categories .container-list__list {
+  justify-content: space-around;
+}
+
+.card-body-containter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-actions button {
+  border: none;
+}
+
+.card-actions__edit {
+  border: none;
+  color: #0d6efd;
+  background: none;
+}
+
+.card-actions__delete {
+  border: none;
+  color: red;
+  background: none;
+}
